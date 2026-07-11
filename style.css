@@ -28,6 +28,10 @@ ul{
     gap: 10px;
     align-items: center;
 }
+ ul li a {
+    text-decoration: none;
+    color: black;
+ }
 /*
 ul>li{
     justify-content: center;
