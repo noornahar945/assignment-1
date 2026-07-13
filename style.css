@@ -4,6 +4,7 @@
     margin: 0px;
 }
 
+
 .common-btn{
     background-color: #1D4ED8;
     padding:12px ;
@@ -23,7 +24,7 @@ nav{
 }
 ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     list-style:none ;
     gap: 10px;
     align-items: center;
@@ -46,11 +47,32 @@ ul>li{
     font-size: 15px;
 }
 
-/*
-.center-item{
-    display: flex;
-    justify-content: space-between;
-     list-style:none ;
-    gap: 10px;
-    align-items: center;
-}
+
+    /*starting working on hero section*/
+    
+    .writting-content{
+        background-color:#FFFFFF;
+        background-position-x: 0;
+        background-position-y: 98;
+        background-blend-mode:darken;
+   background-image: url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:1551px;
+    height: 786px;
+    border:#1D4ED8;
+    background-blend-mode: ;
+    }
+    .writting-content{
+        display: flex;
+        justify-content: center;
+        /* align-content: center; */
+    }
+    .heading{
+        color: #FFFFFF;
+        font-weight: 800;
+        font: bold;
+        justify-content: center;
+        /* align-content: center; */
+    }
