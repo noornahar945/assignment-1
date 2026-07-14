@@ -1,13 +1,12 @@
-
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
 
-.common-btn{
+.common-btn {
     background-color: #1D4ED8;
-    padding:12px ;
+    padding: 12px;
     border-radius: 10px;
     font-weight: bold;
     font-size: 15px;
@@ -16,63 +15,79 @@
     cursor: pointer;
 
 }
+
 /*style for nav*/
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     padding: 12px 0px;
 }
-ul{
+
+ul {
     display: flex;
     justify-content: center;
-    list-style:none ;
+    list-style: none;
     gap: 10px;
     align-items: center;
 }
- ul li a {
+
+ul li a {
     text-decoration: none;
     color: black;
- }
+}
+
 /*
 ul>li{
     justify-content: center;
 }*/
-.container{
+.container {
     max-width: 1200px;
     margin: auto;
-    background-color:#FFFFFF ;
+    background-color: #FFFFFF;
 }
-.logo-icon{
+
+.logo-icon {
     font-weight: bold;
     font-size: 15px;
 }
 
 
-    /*starting working on hero section*/
-    
-    .writting-content{
-        background-color:#FFFFFF;
-        background-position-x: 0;
-        background-position-y: 98;
-        background-blend-mode:darken;
-   background-image: url(./assets/banner.jpg);
+/*starting working on hero section*/
+
+.hero-container {
+    background-color: #FFFFFF;
+    background-position-x: 0;
+    background-position-y: 98;
+    background-image: url(./assets/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width:1551px;
+    width: 1551px;
     height: 786px;
-    border:#1D4ED8;
-    background-blend-mode: ;
-    }
-    .writting-content{
-        display: flex;
-        justify-content: center;
-        /* align-content: center; */
-    }
-    .heading{
-        color: #FFFFFF;
-        font-weight: 800;
-        font: bold;
-        justify-content: center;
-        /* align-content: center; */
-    }
+    border: #1D4ED8;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+.code p {
+    color: #FFFFFF;
+    font: weight 900px;
+    font-size:60px;
+    font: bold;
+    justify-content:center ;
+    align-items: baseline;
+    align-content: center;
+    padding: 60px;
+    margin: 60px;
+}
+.hero-container ul{
+  display: flex;
+    justify-content:end;
+    align-items:end;
+    align-content: center;
+}
+   
+  
+    
