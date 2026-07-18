@@ -63,6 +63,7 @@ ul>li{
     background-position: center;
     width: 100%;
     height: 786px;
+    
 
     /* display:flex;
     flex-direction: column; */
@@ -98,6 +99,18 @@ ul>li{
 
 .container-code p span{
     display: block;
+}
+.container-code div button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+margin-left: 720px;
+margin-right: 280px;
+   margin-top: 300px;
+   margin-bottom: 75px;
+   width: 282px;
+   height: 74px;
+   padding: 15px;
 }
 /* .code p {
     color: #FFFFFF;
