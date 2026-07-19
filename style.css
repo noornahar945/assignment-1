@@ -204,3 +204,48 @@ margin-right: 280px;
     list-style:disc;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+/* idea-section */
+.idea-section-root {
+    width: 100%;
+    height: 607px;
+}
+
+
+
+
+
+/* footer section */
+
+.footer-section-root{
+    width: 100%;
+    height: 145px;
+      background-color: #0d1b2aFF;
+    
+     
+}
+.footer-parent-container {
+    display: flex;
+    justify-content: space-between;
+     padding: 56px 60px 32px 60px;
+    
+ 
+
+}
+.footer-right{
+    display: flex;
+    justify-content:space-between;
+    gap:10px;
+
+
+}
