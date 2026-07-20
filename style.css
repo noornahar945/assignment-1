@@ -79,6 +79,7 @@ ul>li{
   font-weight: 700;
   font-size: 80px;
 }
+
 .container-code p {
   text-align: center;
   color: #ffffffe5;
@@ -93,6 +94,7 @@ ul>li{
 .container-code p span {
   display: block;
 }
+
 .container-code div button {
   display: flex;
   justify-content: center;
@@ -105,12 +107,14 @@ ul>li{
   height: 74px;
   padding: 15px;
 }
+
 /* speaker section start */
 
 .speaker-section-root {
   width: 100%;
   height: 1322px;
 }
+
 .parent-speker-1 {
   text-align: center;
 }
@@ -132,9 +136,11 @@ ul>li{
   padding: 60px;
   gap: 30px;
 }
+
 .speaker-card-parent h3 {
   color: #2563eb;
 }
+
 .name {
   color: #0d1b2a;
   font-size: 20px;
@@ -149,6 +155,7 @@ ul>li{
   border-radius: 12px;
   border: 1px solid #e5e7ebff;
 }
+
 .description {
   display: flex;
   flex-direction: column;
@@ -157,6 +164,7 @@ ul>li{
   margin-left: 40px;
   margin-top: 10px;
 }
+
 /* pricing section start */
 
 .pricing-section-root {
@@ -168,14 +176,42 @@ ul>li{
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  height: 96px;
+  gap:48px;
+ 
 }
+.pricing-container-main-parent h2 {
+  font--color: #0d1b2aFF;
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0px;
+  height:36px;
+
+  
+}
+.pricing-container-main-parent p{
+  font--color: #575757FF;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0px;
+
+  height: 24px;
+   
+} 
 
 .pricing-card-container-parent {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  gap:22px;
   /* display: grid;
     grid-template-columns: repeat(3,1fr); */
 }
+
 .pricing-card {
   width: 370.66px;
   height: auto;
@@ -185,12 +221,13 @@ ul>li{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
-.pricing-card h2, .pricing-card h1, .pricing-card p {
+/* .pricing-card h2, .pricing-card h1, .pricing-card p {
   
-  text-align: start;
-}
+  text-align:start;
+} */
 .pricing-list {
   display: flex;
   flex-direction: column;
@@ -200,56 +237,105 @@ ul>li{
   gap: 15px;
   margin: 30px 0;
 }
+
 .pricing-card .common-btn {
   width: 100%;
   height: 45px;
 }
 
-.p-card-2{
-    background-color: #0d1b2aFF;
+.p-card-2 {
+  background-color: #0d1b2aFF;
 
 }
+
 .text-li-colour li {
-    color:  #ffffffCC;
-    font-family: "Inter";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0px;
+  color: #ffffffCC;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0px;
 }
-.p-card-2 h2{
-    color: #93c5fdFF;
-    font-family: "Inter";
-    font-size: 13px;
-    font-weight: 600;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
+
+.p-card-2 h2 {
+  color: #93c5fdFF;
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
-.p-card-2 h1{
-    color: #ffffffFF;
-    font-family: "Inter";
-    font-size: 44px;
-    font-weight: 700;
-    line-height: 1;
-    letter-spacing: 0px;
+
+.p-card-2 h1 {
+  color: #ffffffFF;
+  font-family: "Inter";
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0px;
 }
-.p-card-2 p{
-    color: #ffffff80;
-    font-family: "Inter";
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0px;
+
+.p-card-2 p {
+  color: #ffffff80;
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0px;
 }
-.p-card-1 {
-    color: #888888FF;
-    font-family: "Inter";
-    font-size: 13px;
-    font-weight: 600;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-    
+
+.p-card-1 h2,
+.p-card-3 h2 {
+  color: #888888FF;
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+
 }
+
+.p-card-1 h1,
+.p-card-3 h1 {
+  color: #0d1b2aFF;
+  font-family: "Inter";
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0px;
+
+}
+
+.p-card-1 p,
+.p-card-3 p {
+  color: #888888FF;
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+
+}
+
+.list-container-parent hr {
+  position: static;
+  color: #e5e7ebFF; 
+  width: 304.66px;
+  line-height: 1px;
+  margin-top: 20px;
+
+
+}
+
+.list-container-parent .hr-color-2 {
+  position: static;
+  color:#ffffff1A;
+  width: 304.66px;
+  line-height: 1px;
+  margin-top: 20px;
+}
+
+
+
 
 /* idea-section */
 .idea-section-root {
@@ -264,11 +350,13 @@ ul>li{
   height: 145px;
   background-color: #0d1b2aff;
 }
+
 .footer-parent-container {
   display: flex;
   justify-content: space-between;
   padding: 56px 60px 32px 60px;
 }
+
 .footer-right {
   display: flex;
   justify-content: space-between;
