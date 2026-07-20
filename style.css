@@ -7,12 +7,70 @@
   background-color: #1d4ed8;
   padding: 12px;
   border-radius: 10px;
-  font-weight: bold;
-  font-size: 15px;
-  color: white;
+  width: 188px;
+  height: 48px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffffFF;
+  text-decoration: none;
+  text-transform: capitalize;
   border: none;
   cursor: pointer;
 }
+
+.outline-btn-1 {
+  background-color: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  color: #2563ebFF;
+  width:100%;
+  height: 45px;
+  border: 1px solid #2563ebFF;
+  cursor: pointer;
+
+}
+.outline-btn-3{
+  background-color: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  color:#0d1b2aFF;
+  width: 100%;
+  height: 45px;
+  border: 1px solid #0d1b2aFF;
+  cursor: pointer;
+
+}
+.outline-btn-2 {
+ background-color: #2563ebFF;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  color: #ffffffFF;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+
+}
+
+
+ /* justify-content: center;
+ align-items: center; */
 
 /*style for nav*/
 nav {
@@ -178,9 +236,10 @@ ul>li{
   align-items: center;
   width: 100%;
   height: 96px;
-  gap:48px;
- 
+  gap: 48px;
+
 }
+
 .pricing-container-main-parent h2 {
   font--color: #0d1b2aFF;
   font-family: "Inter";
@@ -188,11 +247,12 @@ ul>li{
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: 0px;
-  height:36px;
+  height: 36px;
 
-  
+
 }
-.pricing-container-main-parent p{
+
+.pricing-container-main-parent p {
   font--color: #575757FF;
   font-family: "Inter";
   font-size: 16px;
@@ -201,15 +261,14 @@ ul>li{
   letter-spacing: 0px;
 
   height: 24px;
-   
-} 
+
+}
 
 .pricing-card-container-parent {
   display: flex;
   justify-content: space-evenly;
-  gap:22px;
-  /* display: grid;
-    grid-template-columns: repeat(3,1fr); */
+  gap: 22px;
+
 }
 
 .pricing-card {
@@ -221,7 +280,7 @@ ul>li{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
+
 }
 
 /* .pricing-card h2, .pricing-card h1, .pricing-card p {
@@ -318,7 +377,7 @@ ul>li{
 
 .list-container-parent hr {
   position: static;
-  color: #e5e7ebFF; 
+  color: #e5e7ebFF;
   width: 304.66px;
   line-height: 1px;
   margin-top: 20px;
@@ -328,7 +387,7 @@ ul>li{
 
 .list-container-parent .hr-color-2 {
   position: static;
-  color:#ffffff1A;
+  color: #ffffff1A;
   width: 304.66px;
   line-height: 1px;
   margin-top: 20px;
